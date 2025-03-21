@@ -1,0 +1,36 @@
+.book-card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book-cover {
+    height: 200px;
+    object-fit: cover;
+}
+
+.book-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.book-author {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.modal-body img {
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.book-description {
+    line-height: 1.6;
+    color: #444;
+} 
